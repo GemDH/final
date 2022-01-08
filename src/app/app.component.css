@@ -1,0 +1,27 @@
+
+.container .cal_container {
+  max-width: 400px;
+  margin: 100px auto;
+  background: #fafafa;
+  padding: 10px;
+  
+}
+
+.inputs input {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  margin-bottom: 5px;
+}
+
+.operators {
+  margin-top: 20px;
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+button {
+  font-size: 20px;
+  cursor: pointer;
+}
